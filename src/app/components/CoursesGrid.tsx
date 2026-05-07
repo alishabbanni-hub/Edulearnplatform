@@ -1,0 +1,257 @@
+import { CourseCard, Course } from './CourseCard';
+import type { CategoryType } from './CategoryTabs';
+
+interface CoursesGridProps {
+  category: CategoryType;
+}
+
+export function CoursesGrid({ category }: CoursesGridProps) {
+  const allCourses: Course[] = [
+    // Teacher Development Courses
+    {
+      id: 1,
+      title: 'Effective Classroom Management Strategies',
+      instructor: 'Dr. Sarah Johnson',
+      image: 'https://images.unsplash.com/photo-1758685845906-6f705cde4fb7?w=1080',
+      duration: '6 weeks',
+      students: 3245,
+      rating: 4.8,
+      reviews: 892,
+      level: 'Intermediate',
+      category: 'teachers'
+    },
+    {
+      id: 2,
+      title: 'Integrating Technology in the Classroom',
+      instructor: 'Michael Chen',
+      image: 'https://images.unsplash.com/photo-1758685848147-e1e149bf2603?w=1080',
+      duration: '4 weeks',
+      students: 2890,
+      rating: 4.9,
+      reviews: 1024,
+      level: 'Beginner',
+      category: 'teachers'
+    },
+    {
+      id: 3,
+      title: 'Differentiated Instruction Techniques',
+      instructor: 'Emily Rodriguez',
+      image: 'https://images.unsplash.com/photo-1776512377708-6b4eb702505e?w=1080',
+      duration: '8 weeks',
+      students: 4120,
+      rating: 4.7,
+      reviews: 756,
+      level: 'Advanced',
+      category: 'teachers'
+    },
+    {
+      id: 4,
+      title: 'Assessment & Data-Driven Instruction',
+      instructor: 'Dr. James Williams',
+      image: 'https://images.unsplash.com/photo-1758270704296-a59b8f4e7dda?w=1080',
+      duration: '5 weeks',
+      students: 2567,
+      rating: 4.6,
+      reviews: 643,
+      level: 'Intermediate',
+      category: 'teachers'
+    },
+    {
+      id: 5,
+      title: 'Building Inclusive Classrooms',
+      instructor: 'Lisa Martinez',
+      image: 'https://images.unsplash.com/photo-1758685848208-e108b6af94cc?w=1080',
+      duration: '6 weeks',
+      students: 3890,
+      rating: 4.9,
+      reviews: 1203,
+      level: 'Beginner',
+      category: 'teachers'
+    },
+    {
+      id: 6,
+      title: 'Social-Emotional Learning Integration',
+      instructor: 'Dr. Amanda Thompson',
+      image: 'https://images.unsplash.com/photo-1758685848226-eedca8f6bce7?w=1080',
+      duration: '7 weeks',
+      students: 3456,
+      rating: 4.8,
+      reviews: 967,
+      level: 'Intermediate',
+      category: 'teachers'
+    },
+
+    // Leadership Development Courses
+    {
+      id: 7,
+      title: 'Strategic School Leadership',
+      instructor: 'Principal Robert Davis',
+      image: 'https://images.unsplash.com/photo-1590650213165-c1fef80648c4?w=1080',
+      duration: '10 weeks',
+      students: 1890,
+      rating: 4.9,
+      reviews: 445,
+      level: 'Advanced',
+      category: 'leaders'
+    },
+    {
+      id: 8,
+      title: 'Building Effective School Teams',
+      instructor: 'Dr. Patricia Green',
+      image: 'https://images.unsplash.com/photo-1742558869030-a0615dd4df00?w=1080',
+      duration: '6 weeks',
+      students: 2145,
+      rating: 4.7,
+      reviews: 523,
+      level: 'Intermediate',
+      category: 'leaders'
+    },
+    {
+      id: 9,
+      title: 'Educational Leadership & Change Management',
+      instructor: 'Dr. Marcus Johnson',
+      image: 'https://images.unsplash.com/photo-1738963785992-dd0132bbac3d?w=1080',
+      duration: '8 weeks',
+      students: 1567,
+      rating: 4.8,
+      reviews: 389,
+      level: 'Advanced',
+      category: 'leaders'
+    },
+    {
+      id: 10,
+      title: 'Data-Driven Decision Making for Administrators',
+      instructor: 'Linda Washington',
+      image: 'https://images.unsplash.com/photo-1708062831981-ec4742a52d9b?w=1080',
+      duration: '5 weeks',
+      students: 1923,
+      rating: 4.6,
+      reviews: 412,
+      level: 'Intermediate',
+      category: 'leaders'
+    },
+    {
+      id: 11,
+      title: 'Instructional Leadership Essentials',
+      instructor: 'Dr. Kevin Brown',
+      image: 'https://images.unsplash.com/photo-1656812205901-73e9531acf13?w=1080',
+      duration: '7 weeks',
+      students: 2234,
+      rating: 4.9,
+      reviews: 578,
+      level: 'Beginner',
+      category: 'leaders'
+    },
+    {
+      id: 12,
+      title: 'Equity & Justice in School Leadership',
+      instructor: 'Dr. Monica Harris',
+      image: 'https://images.unsplash.com/photo-1590650213165-c1fef80648c4?w=1080',
+      duration: '9 weeks',
+      students: 1678,
+      rating: 4.8,
+      reviews: 434,
+      level: 'Advanced',
+      category: 'leaders'
+    },
+
+    // Youth Development Courses
+    {
+      id: 13,
+      title: 'Effective Communication Skills for Students',
+      instructor: 'Coach Sarah Miller',
+      image: 'https://images.unsplash.com/photo-1776178320206-f42b9a9cf996?w=1080',
+      duration: '4 weeks',
+      students: 5678,
+      rating: 4.9,
+      reviews: 1456,
+      level: 'Beginner',
+      category: 'students'
+    },
+    {
+      id: 14,
+      title: 'Conflict Resolution & Peer Mediation',
+      instructor: 'Jennifer Adams',
+      image: 'https://images.unsplash.com/photo-1758270705172-07b53627dfcb?w=1080',
+      duration: '3 weeks',
+      students: 4234,
+      rating: 4.7,
+      reviews: 987,
+      level: 'Beginner',
+      category: 'students'
+    },
+    {
+      id: 15,
+      title: 'Project Management for Young Leaders',
+      instructor: 'David Kim',
+      image: 'https://images.unsplash.com/photo-1758270705317-3ef6142d306f?w=1080',
+      duration: '5 weeks',
+      students: 3890,
+      rating: 4.8,
+      reviews: 1123,
+      level: 'Intermediate',
+      category: 'students'
+    },
+    {
+      id: 16,
+      title: 'Building Confidence & Self-Esteem',
+      instructor: 'Dr. Rachel Green',
+      image: 'https://images.unsplash.com/photo-1758525861882-39151c7a9804?w=1080',
+      duration: '4 weeks',
+      students: 6123,
+      rating: 4.9,
+      reviews: 1678,
+      level: 'Beginner',
+      category: 'students'
+    },
+    {
+      id: 17,
+      title: 'Time Management & Study Skills',
+      instructor: 'Alex Turner',
+      image: 'https://images.unsplash.com/photo-1776178320221-624f85a0028f?w=1080',
+      duration: '3 weeks',
+      students: 5234,
+      rating: 4.6,
+      reviews: 1234,
+      level: 'Beginner',
+      category: 'students'
+    },
+    {
+      id: 18,
+      title: 'Teamwork & Collaboration Skills',
+      instructor: 'Michelle Lopez',
+      image: 'https://images.unsplash.com/photo-1776178320206-f42b9a9cf996?w=1080',
+      duration: '4 weeks',
+      students: 4567,
+      rating: 4.8,
+      reviews: 1089,
+      level: 'Intermediate',
+      category: 'students'
+    }
+  ];
+
+  const filteredCourses = allCourses.filter(course => course.category === category);
+
+  return (
+    <section className="py-12 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between mb-8">
+          <h2 className="text-3xl font-bold text-gray-900">
+            {category === 'teachers' && 'Teacher Development Courses'}
+            {category === 'leaders' && 'Leadership Development Courses'}
+            {category === 'students' && 'Youth Development Courses'}
+          </h2>
+          <span className="text-gray-600">
+            {filteredCourses.length} courses available
+          </span>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filteredCourses.map((course) => (
+            <CourseCard key={course.id} course={course} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
