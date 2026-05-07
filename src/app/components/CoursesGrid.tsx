@@ -72,7 +72,7 @@ export function CoursesGrid({ category }: CoursesGridProps) {
       id: 6,
       title: 'Social-Emotional Learning Integration',
       instructor: 'Dr. Amanda Thompson',
-      image: 'https://images.unsplash.com/photo-1758685848226-eedca8f6bce7?w=1080',
+      image: 'https://images.pexels.com/photos/8535577/pexels-photo-8535577.jpeg',
       duration: '7 weeks',
       students: 3456,
       rating: 4.8,
