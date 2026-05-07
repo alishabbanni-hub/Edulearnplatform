@@ -24,7 +24,7 @@ export function CoursesGrid({ category }: CoursesGridProps) {
       id: 2,
       title: 'Integrating Technology in the Classroom',
       instructor: 'Michael Chen',
-      image: 'https://images.unsplash.com/photo-1758685848147-e1e149bf2603?w=1080',
+      image: 'https://plus.unsplash.com/premium_photo-1664910131883-132940940995?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       duration: '4 weeks',
       students: 2890,
       rating: 4.9,
