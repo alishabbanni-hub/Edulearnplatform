@@ -3,9 +3,11 @@ import type { CategoryType } from './CategoryTabs';
 
 interface CoursesGridProps {
   category: CategoryType;
+  onCourseSelect?: (course: Course) => void;
+}
 }
 
-export function CoursesGrid({ category }: CoursesGridProps) {
+export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
   const allCourses: Course[] = [
     // Teacher Development Courses
     {
@@ -247,9 +249,20 @@ export function CoursesGrid({ category }: CoursesGridProps) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredCourses.map((course) => (
-            <CourseCard key={course.id} course={course} />
-          ))}
+          {filteredCourses.map((course) => {
+            if (course.id === 1 && onCourseSelect) {
+              return (
+                <div
+                  key={course.id}
+                  onClick={() => onCourseSelect(course)}
+                  className="cursor-pointer"
+                >
+                  <CourseCard course={course} />
+                </div>
+              );
+            }
+            return <CourseCard key={course.id} course={course} />;
+          })}
         </div>
       </div>
     </section>
