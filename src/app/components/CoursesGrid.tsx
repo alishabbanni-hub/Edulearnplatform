@@ -5,7 +5,6 @@ interface CoursesGridProps {
   category: CategoryType;
   onCourseSelect?: (course: Course) => void;
 }
-}
 
 export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
   const allCourses: Course[] = [
