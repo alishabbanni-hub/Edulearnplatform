@@ -19,12 +19,6 @@ interface CourseCardProps {
 }
 
 export function CourseCard({ course }: CourseCardProps) {
-  const levelColors = {
-    Beginner: 'bg-green-100 text-green-700',
-    Intermediate: 'bg-yellow-100 text-yellow-700',
-    Advanced: 'bg-red-100 text-red-700'
-  };
-
   return (
     <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 group cursor-pointer">
       <div className="relative overflow-hidden aspect-video">
@@ -33,11 +27,6 @@ export function CourseCard({ course }: CourseCardProps) {
           alt={course.title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
-        <div className="absolute top-3 right-3">
-          <span className={`px-3 py-1 rounded-full text-xs font-semibold ${levelColors[course.level]}`}>
-            {course.level}
-          </span>
-        </div>
       </div>
 
       <div className="p-5">
