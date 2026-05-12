@@ -41,8 +41,7 @@ export function CourseDetail({ course, onBack }: CourseDetailProps) {
                   {course.title}
                 </h1>
                 {course.subtitle && (
-                  <p className="text-xl text-gray-700 mb-2">{course.subtitle}</p>
-                )}
+                <p className="text-xl font-bold text-gray-700 mb-2">{course.subtitle}</p>                )}
                 <p className="text-lg text-gray-600">By {course.instructor}</p>
               </div>
               <span className={`px-3 py-1 rounded-full text-xs font-semibold ${levelColors[course.level]}`}>
