@@ -34,8 +34,7 @@ export function CourseCard({ course }: CourseCardProps) {
           {course.title}
         </h3>
         {course.subtitle && (
-          <p className="text-sm text-gray-700 mb-2 line-clamp-2">{course.subtitle}</p>
-        )}
+        <p className="text-sm font-bold text-gray-700 mb-2 line-clamp-2">{course.subtitle}</p>        )}
         <p className="text-sm text-gray-600 mb-4">By {course.instructor}</p>
 
         <div className="flex items-center gap-4 mb-4 text-sm text-gray-600">
