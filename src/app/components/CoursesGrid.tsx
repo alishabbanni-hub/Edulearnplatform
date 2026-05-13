@@ -49,7 +49,8 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 4,
-      title: 'Assessment & Data-Driven Instruction',
+      title: 'Neurodiversity and Learning Differences',
+      subtitle: 'Building Classrooms Where Every Mind Thrives',
       instructor: 'Dr. James Williams',
       image: 'https://images.unsplash.com/photo-1758270704296-a59b8f4e7dda?w=1080',
       duration: '5 weeks',
