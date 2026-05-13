@@ -23,7 +23,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 2,
-      title: 'Integrating Technology in the Classroom',
+      title: '3.	From Passive Learning to Deep Engagement: Project-Based and Phenomenon-Based Learning in Action',
       instructor: 'Michael Chen',
       image: 'https://plus.unsplash.com/premium_photo-1664910131883-132940940995?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       duration: '4 weeks',
