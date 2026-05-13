@@ -65,7 +65,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
       title: 'Teaching for a Planet in Transition:',
       subtitle: 'Climate Literacy, Green Skills, and Youth Action',
       instructor: 'Lisa Martinez',
-      image: '/Teaching for green.png',
+      image: '/teaching-for-green.png',
       duration: '6 weeks',
       students: 3890,
       rating: 4.9,
