@@ -36,7 +36,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 3,
-      title: 'Climate Education for a Changing World',
+      title: 'Climate Education for a Changing World:',
       subtitle: 'Sustainability, Systems Thinking, and Youth Action',
       instructor: 'Emily Rodriguez',
       image: 'https://images.unsplash.com/photo-1776512377708-6b4eb702505e?w=1080',
