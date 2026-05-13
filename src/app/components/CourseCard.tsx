@@ -30,8 +30,7 @@ export function CourseCard({ course }: CourseCardProps) {
       </div>
 
       <div className="p-5">
-        <h3 className="text-lg font-bold text-gray-900 mb-1 line-clamp-2 group-hover:text-blue-600 transition-colors">
-          {course.title}
+      <h3 className="text-lg font-bold text-gray-900 mb-1 line-clamp-3 group-hover:text-blue-600 transition-colors">          {course.title}
         </h3>
         {course.subtitle && (
         <p className="text-sm font-bold text-gray-700 mb-2 line-clamp-2">{course.subtitle}</p>        )}
