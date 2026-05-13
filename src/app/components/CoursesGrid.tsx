@@ -62,7 +62,8 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 5,
-      title: 'Building Inclusive Classrooms',
+      title: 'Teaching for a Planet in Transition:',
+      subtitle: 'Climate Literacy, Green Skills, and Youth Action',
       instructor: 'Lisa Martinez',
       image: 'https://plus.unsplash.com/premium_photo-1663089130120-578043d10e2f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1pbi1zYW1lLXNlcmllc3w0fHx8ZW58MHx8fHx8',
       duration: '6 weeks',
