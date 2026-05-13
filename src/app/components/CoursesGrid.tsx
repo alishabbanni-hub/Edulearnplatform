@@ -75,7 +75,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 6,
-      title: 'Social-Emotional Learning Integration',
+      title: 'The End of Homework? Rethinking Learning in the AI Era',
       instructor: 'Dr. Amanda Thompson',
       image: 'https://images.pexels.com/photos/8535577/pexels-photo-8535577.jpeg',
       duration: '7 weeks',
