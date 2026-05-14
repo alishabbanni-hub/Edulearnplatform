@@ -97,7 +97,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 8,
-      title: 'Building Effective School Teams',
+      title: 'Building Inclusive School Teams',
       instructor: 'Dr. Patricia Green',
       image: 'https://images.unsplash.com/photo-1742558869030-a0615dd4df00?w=1080',
       duration: '6 weeks',
@@ -121,7 +121,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 10,
-      title: 'Data-Driven Decision Making for Administrators',
+      title: 'Data-Driven Decision Making for Educational Leaders',
       instructor: 'Linda Washington',
       image: 'https://images.unsplash.com/photo-1708062831981-ec4742a52d9b?w=1080',
       duration: '5 weeks',
