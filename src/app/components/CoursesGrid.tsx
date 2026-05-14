@@ -83,7 +83,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
 {
       id: 19,
-      title: 'Course title here',
+      title: 'Bullying and Cyber-Bullying: Effective Strategies',
       subtitle: 'Optional subtitle',
       instructor: 'Instructor Name',
       image: 'https://images.unsplash.com/photo-...',
