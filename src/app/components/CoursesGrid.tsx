@@ -81,7 +81,46 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
       level: 'Intermediate',
       category: 'teachers'
     },
-
+{
+      id: 19,
+      title: 'Course title here',
+      subtitle: 'Optional subtitle',
+      instructor: 'Instructor Name',
+      image: 'https://images.unsplash.com/photo-...',
+      duration: '6 weeks',
+      students: 1500,
+      rating: 4.8,
+      reviews: 320,
+      level: 'Beginner',
+      category: 'teachers'
+    },
+    {
+      id: 19,
+      title: 'Course title here',
+      subtitle: 'Optional subtitle',
+      instructor: 'Instructor Name',
+      image: 'https://images.unsplash.com/photo-...',
+      duration: '6 weeks',
+      students: 1500,
+      rating: 4.8,
+      reviews: 320,
+      level: 'Beginner',
+      category: 'teachers'
+    },
+    {
+      id: 19,
+      title: 'Course title here',
+      subtitle: 'Optional subtitle',
+      instructor: 'Instructor Name',
+      image: 'https://images.unsplash.com/photo-...',
+      duration: '6 weeks',
+      students: 1500,
+      rating: 4.8,
+      reviews: 320,
+      level: 'Beginner',
+      category: 'teachers'
+    },
+    
     // Leadership Development Courses
     {
       id: 7,
