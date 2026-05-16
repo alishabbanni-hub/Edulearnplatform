@@ -86,7 +86,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
       title: 'Bullying Beyond the Playground: How Online Conflict Follows Students' Home',
       instructor: 'Dr. Julia Chastein',
       image: '/Bullying.png',
-      duration: '6 weeks',
+      duration: '4 weeks',
       students: 1500,
       rating: 4.8,
       reviews: 320,
