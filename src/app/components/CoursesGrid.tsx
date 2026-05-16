@@ -84,7 +84,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
 {
       id: 19,
       title: 'Bullying and Cyber-Bullying: Effective Strategies',
-      instructor: 'Shahin Shareef',
+      instructor: 'Dr. Rod Ellis',
       image: '/Bullying.png',
       duration: '6 weeks',
       students: 1500,
@@ -96,7 +96,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     {
       id: 19,
       title: 'The Decisions We Don’t Know We Are Making: Bias, Belonging, and Inclusive Classroom',
-      instructor: 'Scot Harvey',
+      instructor: 'Dr. Scot Harvey',
       image: '/bias.png',
       duration: '6 weeks',
       students: 1500,
