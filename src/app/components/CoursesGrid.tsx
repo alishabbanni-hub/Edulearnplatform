@@ -98,7 +98,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
       id: 19,
       title: 'The Decisions We Don’t Know We Are Making: Bias, Belonging, and Inclusive Classroom',
       instructor: 'Scot Harvey',
-      image: 'https://images.unsplash.com/photo-...',
+      image: '/bias.png',
       duration: '6 weeks',
       students: 1500,
       rating: 4.8,
