@@ -94,7 +94,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
       category: 'teachers'
     },
     {
-      id: 19,
+      id: 20,
       title: 'The Decisions We Don’t Know We Are Making: Bias, Belonging, and Inclusive Classroom',
       instructor: 'Dr. Scot Harvey',
       image: '/bias.png',
@@ -106,7 +106,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
       category: 'teachers'
     },
     {
-      id: 19,
+      id: 21,
       title: 'Bullying Beyond the Playground: How Online Conflict Follows Students Home',
       subtitle: 'Optional subtitle',
       instructor: 'Instructor Name',
