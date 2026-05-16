@@ -84,9 +84,8 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
 {
       id: 19,
       title: 'Bullying and Cyber-Bullying: Effective Strategies',
-      subtitle: 'Optional subtitle',
-      instructor: 'Instructor Name',
-      image: 'https://images.unsplash.com/photo-...',
+      instructor: 'Shahin Shareef',
+      image: '/Bullying.png',
       duration: '6 weeks',
       students: 1500,
       rating: 4.8,
