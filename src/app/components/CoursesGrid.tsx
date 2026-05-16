@@ -83,8 +83,8 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
 {
       id: 19,
-      title: 'Bullying and Cyber-Bullying: Effective Strategies',
-      instructor: 'Dr. Rod Ellis',
+      title: 'Bullying Beyond the Playground: How Online Conflict Follows Students' Home',
+      instructor: 'Dr. Julia Chastein',
       image: '/Bullying.png',
       duration: '6 weeks',
       students: 1500,
