@@ -107,7 +107,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 19,
-      title: 'Course title here',
+      title: 'Bullying Beyond the Playground: How Online Conflict Follows Students' Home',
       subtitle: 'Optional subtitle',
       instructor: 'Instructor Name',
       image: 'https://images.unsplash.com/photo-...',
