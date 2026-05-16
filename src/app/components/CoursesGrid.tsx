@@ -24,7 +24,8 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 2,
-      title: 'Fostering Deep Engagement: Project-Based and Phenomenon-Based Learning in Action',
+      title: 'Fostering Deep Engagement',
+      subtitle: 'Project-Based and Phenomenon-Based Learning in Action',
       instructor: 'Michael Chen',
       image: 'https://plus.unsplash.com/premium_photo-1664910131883-132940940995?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       duration: '4 weeks',
@@ -36,7 +37,8 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 3,
-      title: 'Climate Education for a Changing World: Sustainability, Systems Thinking, and Youth Action',
+      title: 'Climate Education for a Changing World',
+      subtitle: 'Sustainability, Systems Thinking, and Youth Action',
       instructor: 'Emily Rodriguez',
       image: '/no-planet-b.png',
       duration: '8 weeks',
@@ -48,7 +50,8 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 4,
-      title: 'Neurodiversity and Learning Differences: Building Classrooms Where Every Mind Thrives',
+      title: 'Neurodiversity and Learning Differences',
+      subtitle: 'Building Classrooms Where Every Mind Thrives',
       instructor: 'Dr. James Williams',
       image: '/neurodiversity.png',
       duration: '5 weeks',
@@ -60,7 +63,8 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 5,
-      title: 'Teaching for a Planet in Transition: Climate Literacy, Green Skills, and Youth Action',
+      title: 'Teaching for a Planet in Transition',
+      subtitle: 'Climate Literacy, Green Skills, and Youth Action',
       instructor: 'Lisa Martinez',
       image: '/teaching-for-green.png',
       duration: '6 weeks',
@@ -72,7 +76,8 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 6,
-      title: 'The End of Homework? Rethinking Learning in the AI Era',
+      title: 'The End of Homework?',
+      subtitle: 'Rethinking Learning in the AI Era',
       instructor: 'Dr. Amanda Thompson',
       image: 'https://images.pexels.com/photos/8535577/pexels-photo-8535577.jpeg',
       duration: '7 weeks',
@@ -84,7 +89,8 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
 {
       id: 19,
-      title: "Bullying Beyond the Playground: How Online Conflict Follows Students' Home",
+      title: 'Bullying Beyond the Playground',
+      subtitle: 'How Online Conflict Follows Students' Home',
       instructor: 'Dr. Julia Chastein',
       image: '/Bullying.png',
       duration: '4 weeks',
@@ -96,7 +102,8 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 20,
-      title: "The Decisions We Don't Know We Are Making: Bias, Belonging, and Inclusive Classrooms",
+      title: 'The Decisions We Don't Know We Are Making',
+      subtitle: 'Bias, Belonging, and Inclusive Classrooms',
       instructor: 'Dr. Scot Harvey',
       image: '/bias.png',
       duration: '6 weeks',
