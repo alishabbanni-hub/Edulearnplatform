@@ -83,7 +83,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
 {
       id: 19,
-      title: 'Bullying Beyond the Playground: How Online Conflict Follows Students' Home',
+      title: "Bullying Beyond the Playground: How Online Conflict Follows Students' Home",
       instructor: 'Dr. Julia Chastein',
       image: '/Bullying.png',
       duration: '4 weeks',
@@ -95,22 +95,9 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 20,
-      title: 'The Decisions We Don’t Know We Are Making: Bias, Belonging, and Inclusive Classroom',
+      title: "The Decisions We Don't Know We Are Making: Bias, Belonging, and Inclusive Classrooms",
       instructor: 'Dr. Scot Harvey',
       image: '/bias.png',
-      duration: '6 weeks',
-      students: 1500,
-      rating: 4.8,
-      reviews: 320,
-      level: 'Beginner',
-      category: 'teachers'
-    },
-    {
-      id: 21,
-      title: 'Bullying Beyond the Playground: How Online Conflict Follows Students Home',
-      subtitle: 'Optional subtitle',
-      instructor: 'Instructor Name',
-      image: 'https://images.unsplash.com/photo-...',
       duration: '6 weeks',
       students: 1500,
       rating: 4.8,
