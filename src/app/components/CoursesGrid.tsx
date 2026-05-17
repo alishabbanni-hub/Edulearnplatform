@@ -90,7 +90,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
 {
       id: 19,
       title: 'Bullying Beyond the Playground',
-      subtitle: 'How Online Conflict Follows Students' Home',
+      subtitle: 'How Online Conflict Follows Students Home',
       instructor: 'Dr. Julia Chastein',
       image: '/Bullying.png',
       duration: '4 weeks',
