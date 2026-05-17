@@ -90,7 +90,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
 {
       id: 19,
       title: 'Bullying Beyond the Playground',
-      subtitle: 'How Online Conflict Follows Students Home',
+      subtitle: "How Online Conflict Follows Students' Home",
       instructor: 'Dr. Julia Chastein',
       image: '/Bullying.png',
       duration: '4 weeks',
@@ -102,7 +102,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 20,
-      title: 'The Decisions We Don't Know We Are Making',
+      title: "The Decisions We Don't Know We Are Making",
       subtitle: 'Bias, Belonging, and Inclusive Classrooms',
       instructor: 'Dr. Scot Harvey',
       image: '/bias.png',
