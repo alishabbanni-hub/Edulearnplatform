@@ -49,8 +49,8 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 4,
-      title: 'Neurodiversity and Learning Differences',
-      subtitle: 'Building Classrooms Where Every Mind Thrives',
+      title: 'Build Classrooms Where Every Mind Thrives',
+      subtitle: 'Neurodiversity and Learning Differences',
       instructor: 'Dr. James Williams',
       image: '/neurodiversity.png',
       duration: '5 weeks',
