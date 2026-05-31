@@ -101,8 +101,8 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 20,
-      title: "The Decisions We Don't Know We Are Making",
-      subtitle: 'Bias, Belonging, and Inclusive Classrooms',
+      title: "The Decisions We Don't Know We Are Making in the Classroom",
+      subtitle: 'Bias and Inclusive Learning',
       instructor: 'Dr. Scot Harvey',
       image: '/bias.png',
       duration: '6 weeks',
