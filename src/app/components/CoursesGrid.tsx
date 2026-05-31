@@ -101,7 +101,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 20,
-      title: "The Decisions We Don't Know We Are Making in the Classroom",
+      title: "The Decisions We Don't Know We Are Making as Teachers",
       subtitle: 'Bias and Inclusive Learning',
       instructor: 'Dr. Scot Harvey',
       image: '/bias.png',
