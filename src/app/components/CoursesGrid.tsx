@@ -88,7 +88,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
 {
       id: 19,
-      title: 'Bullying Beyond the Playground',
+      title: 'Turn Bullying into Understanding',
       subtitle: "How Online Conflict Follows Students' Home",
       instructor: 'Dr. Julia Chastein',
       image: '/Bullying.png',
