@@ -37,8 +37,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 3,
-      title: 'Climate Education for a Changing World',
-      subtitle: 'Sustainability, Systems Thinking, and Youth Action',
+      title: 'Engagement Strategies for Climate Education at Schools',
       instructor: 'Emily Rodriguez',
       image: '/no-planet-b.png',
       duration: '8 weeks',
