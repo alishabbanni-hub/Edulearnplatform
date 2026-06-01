@@ -11,8 +11,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     // Teacher Development Courses
     {
       id: 1,
-      title: 'Self-Directed Learning',
-      subtitle: 'Students as Drivers of Their Own Transformation',
+      title: 'Turn Students into Drivers of Their Own Change Through Self-Directed Learning',
       instructor: 'Dr. Sarah Johnson',
       image: '/self-directed-learning.png',      
       duration: '6 weeks',
