@@ -35,18 +35,6 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
       category: 'teachers'
     },
     {
-      id: 3,
-      title: 'Engagement Strategies for Climate Education at Schools',
-      instructor: 'Emily Rodriguez',
-      image: '/no-planet-b.png',
-      duration: '8 weeks',
-      students: 4120,
-      rating: 4.7,
-      reviews: 756,
-      level: 'Advanced',
-      category: 'teachers'
-    },
-    {
       id: 4,
       title: 'Build Classrooms Where Every Mind Thrives',
       subtitle: 'Neurodiversity and Learning Differences',
@@ -62,7 +50,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     {
       id: 5,
       title: 'Teaching for Green Skills',
-      subtitle: 'Climate Literacy for a Planet in Transition',
+      subtitle: 'Engagement Strategies for Climate Education at Schools',
       instructor: 'Lisa Martinez',
       image: '/teaching-for-green.png',
       duration: '6 weeks',
