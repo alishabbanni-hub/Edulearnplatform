@@ -37,10 +37,10 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
     {
       id: 4,
-      title: 'Build Classrooms Where Every Mind Thrives',
+      title: 'Equity, Diversity, and Inclusion',
       subtitle: 'Build Classrooms Where Every Mind Thrives',
       instructor: 'Dr. James Williams',
-      image: '/neurodiversity.png',
+      image: '/course-6-cover.png',
       duration: '5 weeks',
       students: 2567,
       rating: 4.6,
