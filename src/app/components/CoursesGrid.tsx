@@ -27,7 +27,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
       title: 'Project-Based Learning in Action',
       subtitle: "Fostering Deep Engagement",
       instructor: 'Michael Chen',
-      image: '/course-2-cover.png.png',
+      image: '/course-2-cover.png',
       duration: '4 weeks',
       students: 2890,
       rating: 4.9,
