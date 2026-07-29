@@ -13,7 +13,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
       id: 1,
       title: 'Turn Students into Drivers of Their Own Change Through Self-Directed Learning',
       instructor: 'Dr. Sarah Johnson',
-      image: '/self-directed-learning.png',      
+      image: '/course-1-cover.jpg',      
       duration: '6 weeks',
       students: 3245,
       rating: 4.8,
