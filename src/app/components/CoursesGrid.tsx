@@ -11,7 +11,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     // Teacher Development Courses
     {
       id: 1,
-      title: 'Turn Students into Drivers of Their Own Change Through Self-Directed Learning',
+      title: 'Leading Empathetic Classrooms: Practical Strategies for Building Trust and Belonging',
       instructor: 'Dr. Sarah Johnson',
       image: '/course-1-cover.png',      
       duration: '6 weeks',
