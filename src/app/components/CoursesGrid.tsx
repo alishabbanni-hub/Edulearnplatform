@@ -53,7 +53,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
       title: 'Teaching for Green Skills',
       subtitle: 'Engagement Strategies for Climate Education at Schools',
       instructor: 'Lisa Martinez',
-      image: '/teaching-for-green.png',
+      image: '/course-7-cover.png',
       duration: '6 weeks',
       students: 3890,
       rating: 4.9,
