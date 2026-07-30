@@ -76,10 +76,10 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     },
 {
       id: 19,
-      title: 'Turn Bullying into Understanding',
-      subtitle: "How Online Conflict Follows Students' Home",
+      title: 'Understanding and Preventing Bullying Together',
+      subtitle: "Building Respect, Belonging, and Student Wellbeing",
       instructor: 'Dr. Julia Chastein',
-      image: '/Bullying.png',
+      image: '/course-7-cover.png',
       duration: '4 weeks',
       students: 1500,
       rating: 4.8,
