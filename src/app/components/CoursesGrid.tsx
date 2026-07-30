@@ -79,7 +79,7 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
       title: 'Understanding and Preventing Bullying Together',
       subtitle: "Building Respect, Belonging, and Student Wellbeing",
       instructor: 'Dr. Julia Chastein',
-      image: '/course-7-cover.png',
+      image: '/course-8-cover.png',
       duration: '4 weeks',
       students: 1500,
       rating: 4.8,
