@@ -64,9 +64,9 @@ export function CoursesGrid({ category, onCourseSelect }: CoursesGridProps) {
     {
       id: 6,
       title: 'The End of Homework in the AI Era?',
-      subtitle: 'Rethinking the Future of Learning in K-12 Education',
+      subtitle: 'Promoting Responsible AI in K-12 Education',
       instructor: 'Dr. Amanda Thompson',
-      image: '/course-9-cover.png',
+      image: '/course-10-cover.png',
       duration: '7 weeks',
       students: 3456,
       rating: 4.8,
