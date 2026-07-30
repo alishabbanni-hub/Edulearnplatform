@@ -25,7 +25,7 @@ export function CourseCard({ course }: CourseCardProps) {
         <ImageWithFallback
           src={course.image}
           alt={course.title}
-          className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
+          className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
         />
       </div>
 
